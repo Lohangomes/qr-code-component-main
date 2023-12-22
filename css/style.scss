@@ -1,0 +1,52 @@
+$primary: hsl(212, 45%, 89%);
+$secundaria: hsl(0, 0%, 100%);
+$terceira:hsl(220, 15%, 55%);
+$quarta:hsl(218, 44%, 22%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  font-family: 'Outfit', sans-serif;
+ margin-top: auto;
+ margin-bottom: auto;
+ text-transform: capitalize;
+}
+
+.container {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+  width: 250px;
+  height: 420px;
+  padding: 10px;
+  background: $secundaria;
+  border-radius: 15px;
+box-shadow: 1px 1px 5px $quarta;
+
+  img {
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+    font-weight: 400;
+    color: $terceira;
+  }
+}
+
